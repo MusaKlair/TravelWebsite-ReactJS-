@@ -54,12 +54,13 @@
 .nav-links-mobile {
     display: none;
 }
-a.link{
+button a.link{
     text-decoration: none;
     color: #222;
     transition: 0.2s ease-in-out;
 }
 button {
+    background: #dedede;
     padding: 0.5rem 1rem;
     white-space: nowrap;
     font-size: 1rem;
