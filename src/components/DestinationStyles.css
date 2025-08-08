@@ -11,8 +11,8 @@
     align-items: center;
     justify-content: space-around;
     margin: 4.5rem;
-
 }
+
 .first-des-reverse{
     display: flex;
     flex-direction: row-reverse;
@@ -29,6 +29,8 @@
 
 .des-text h2{
     padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .image{
@@ -59,19 +61,19 @@
     .first-des{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 2.5rem;
+        margin: 2.5rem 0;
     }
 
     .first-des-reverse{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 2.5rem;
+        margin: 2.5rem 0;
     }
     .des-text{
         width: 100%;
     }
     .image{
-        width: 100;
+        width: 100%;
         margin: 1.8rem 0;
     }
     .image img{

@@ -1,17 +1,36 @@
-.about-container{
+.about-container {
     margin: 4rem 6rem;
     text-align: start;
-}
-.about-container h1{
-    padding-bottom: 1rem;
+    transition: margin 0.3s ease; /* Smooth resizing */
 }
 
-.about-container p{
+.about-container h1 {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.about-container p {
     padding-bottom: 2rem;
 }
 
-@media screen and (max-width:850px){
-    .about-container{
+@media screen and (max-width: 850px) {
+    .about-container {
         margin: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about-container {
+        margin: 2rem 1.5rem;
+    }
+    
+    .about-container h1 {
+        font-size: 1.7rem; /* Better for mobile */
+        padding-bottom: 0.8rem;
+    }
+    
+    .about-container p {
+        padding-bottom: 1.5rem;
     }
 }
